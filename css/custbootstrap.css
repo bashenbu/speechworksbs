@@ -1,0 +1,29 @@
+.navbar-fixed-top {
+    height: 100px;
+    background-color: #F17007;
+}
+
+.navbar-brand {
+	padding-top: 10px;
+}
+
+.navbar-fixed-top li a {
+	padding-top: 40px;
+}
+
+.navbar .nav > li > a {
+	color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: rgb(0 0 0);
+}
+ 
+ .navbar-default .navbar-nav > .active > a, 
+ .navbar-default .navbar-nav > .active > a:hover, 
+ .navbar-default .navbar-nav > .active > a:focus {
+      color: #F17007;
+      background: rgba(255 255 255 0);
+      height: 100px;
+}
